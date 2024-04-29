@@ -1,0 +1,6 @@
+spring:
+  ai:
+    openai.api-key: sk-proj-xP0n1ogtKGGrcYYdMzWVT3BlbkFJ8cnE5EgQzAaFaPZNysFq
+
+server:
+  port: 8085
