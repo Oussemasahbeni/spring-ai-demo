@@ -1,6 +1,12 @@
 spring:
   ai:
-    #openai.api-key: sk-proj-xP0n1ogtKGGrcYYdMzWVT3BlbkFJ8cnE5EgQzAaFaPZNysFq
+    azure:
+      openai:
+        api-key: 754e0c5844fc42be95a8ec42f08d17c7
+        endpoint: https://if-ai.openai.azure.com/
+        chat:
+          options:
+            deployment-name: gpt-35-turbo-16k
 
 server:
   port: 8085

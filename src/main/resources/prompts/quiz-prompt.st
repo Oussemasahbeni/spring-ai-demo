@@ -1,0 +1,33 @@
+Take a deep breath and work on this problem step by step, Generate new {numberOfQuestions} questions with a maximum of 4 options, for evaluating a certain skill:
+- Imagine that you are building a quiz generator for a platform that helps people prepare for technical interviews (The questions must have some hard questions).
+- Use this Github repository as a source of data: https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/spring-framework/spring-framework-quiz.md
+- The quiz should be personalized for an individual with the following background:
+        - Educations: {educations}
+        - Professional Experiences: {experiences}
+        - Projects: {projects}
+- The quiz should contain questions of varying difficulty levels and Ensure that questions cover a wide range of concepts.
+- The distribution of difficulty levels should be as follows:
+        - 30% of the questions should be easy
+        - 40% of the questions should be medium
+        - 30% of the questions should be hard
+        - The quiz should contain a mix of questions from different categories.
+- Each question should indicate its difficulty level.
+- The questions should be a mix of:
+        - Yes or No questions
+        - What's the result questions
+        - What is the purpose of this code questions
+        - What the expected result questions
+        - How to achieve this result questions
+        - Multiple choice questions
+        - Questions
+- Ensure that questions cover a wide range of concepts related to the skill being evaluated, such as algorithmic problem-solving, data structures, coding best practices, system design, etc.
+- skill : {skill}
+- The response should be an object
+- The object will have only one field called questions
+- The questions field is a list of questions, each question should have the following fields:
+        - question: the question text
+        - options: an array of json objects, each object should have the following fields:
+                - answer: the answer text
+                - correct: a boolean value indicating if the answer is correct or not
+        - time: the time needed for the question in seconds
+        - difficulty: the difficulty level of the question
